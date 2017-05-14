@@ -1,0 +1,94 @@
+@import "base/var";
+@import "base/px2rem";
+
+.view_serverinfo {
+  font-size: .5rem;
+  background: $bg_gray;
+}
+.serverinfo_top_bg{
+  width: 100%;
+  height: px2rem(277);
+}
+.serverinfo_serverlist{
+  padding: px2rem(15);
+  padding-bottom: 0;
+  li{
+    margin-bottom: px2rem(10);
+    img{
+      height: px2rem(314);
+      width: 100%;
+    }
+  }
+  li:nth-child(5){
+    img{
+      height: px2rem(281);
+      width: 100%;
+    }
+  }
+}
+.serverinfo_products{
+  background: white;
+  padding-bottom: px2rem(1);
+  position: relative;
+  .serverinfo_products_title{
+    width: 100%;
+    height: px2rem(65);
+    line-height: px2rem(65);
+    text-align: center;
+    img{
+      width: px2rem(166);
+      height: px2rem(31);
+    }
+  }
+  ul{
+    padding: 0 px2rem(23);
+    white-space: nowrap;
+    overflow-x: scroll;
+    margin-top: px2rem(-30);
+    .right_{
+      height: px2rem(26);
+      width: px2rem(17);
+      position: absolute;
+      left: 95%;
+      top: 35%;
+      z-index: 999999;
+    }
+    li{
+      display: inline-block;
+      margin-right: px2rem(23);
+      .serverinfo_products_humens{
+        color: white;
+        font-size: .3rem;
+        text-indent: px2rem(10);
+        position: relative;
+        top: px2rem(35);
+        border-top-left-radius: 6px;
+        padding-top: px2rem(5);
+        padding-bottom: px2rem(4);
+        background: transparent url('../assets/img/gift_hot_num.png') left top/px2rem(220) px2rem(40) no-repeat;
+      }
+      img{
+        height: px2rem(228);
+        width: px2rem(228);
+        border: 1px solid $bg_gray;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+      }
+      .serverinfo_products_name{
+        text-align: center;
+        font-size: .45rem;
+        margin-top: px2rem(10);
+      }
+    }
+  }
+}
+.serverinfo_btn{
+  width: px2rem(320);
+  margin: px2rem(30) auto;
+  color: white;
+  background: $bg_orange;
+  height: px2rem(80);
+  line-height: px2rem(80);
+  text-align: center;
+  border-radius: 4px;
+}

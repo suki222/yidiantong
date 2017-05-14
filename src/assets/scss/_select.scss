@@ -1,0 +1,59 @@
+@import "base/var";
+@import "base/px2rem";
+.select_block{
+  position: absolute;
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+  font-size: .5rem;
+  z-index: 999999;
+  min-height: 100%;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.2);
+  top:0;
+  padding: 0 px2rem(50);
+  .content{
+    background: white;
+    width: 100%;
+    margin-top: 30%;
+    border-radius: 6px;
+    .box_btn{
+      border-top: 1px solid $line-1;
+      height: px2rem(80);
+      line-height: px2rem(80);
+      color: $bg_blue;
+      display: flex;
+      text-align: center;
+      margin-top: -1px;
+      .cancel{
+        flex: 1;
+        border-right: 1px solid $line-1;
+        color: $font_gray_77;
+      }
+      .sure{
+        flex: 1;
+      }
+    }
+    .box_title{
+      height: px2rem(90);
+      line-height: px2rem(90);
+      text-align: center;
+    }
+    .box_item{
+      font-size: .45rem;
+      margin: 0 px2rem(25);
+      height: px2rem(80);
+      line-height: px2rem(80);
+      border-bottom: 1px solid $line-1;
+      padding-left: px2rem(20);
+      background: transparent url('../../assets/img/icon_ring.png') right center/px2rem(40) px2rem(40) no-repeat;
+    }
+    .box_item_click{
+      color: $bg_blue;
+      background: transparent url('../../assets/img/icon_true.png') right center/px2rem(40) px2rem(40) no-repeat;
+    }
+  }
+}
+
+
+

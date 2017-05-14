@@ -1,0 +1,63 @@
+@import "base/var";
+@import "base/px2rem";
+
+.view_products{
+  height: 100%;
+}
+
+.product_list{
+  font-size: .5rem;
+  padding: px2rem(20);
+  li{
+    background: white;
+    margin-bottom: px2rem(20);
+    border: 1px solid $line-1;
+    border-radius: 6px;
+    display: flex;
+    .product_imgs{
+      flex: 1;
+      margin-right: px2rem(10);
+      .product_hot{
+        height:px2rem(70);
+        width: px2rem(70);
+        position: absolute;
+      }
+      .product_img{
+        width: px2rem(228);
+        height: px2rem(250);
+      }
+    }
+
+    .products_info{
+      padding: px2rem(15);
+      flex: 2;
+      .product_name{
+        font-size: .5rem;
+        color: $font_black_4c;
+        span{
+          font-size: .45rem;
+          float: right;
+          .hot{
+            color: $font_orange;
+          }
+        }
+      }
+      .product_vip{
+        font-size: .4rem;
+        color: $font_orange;
+        margin: px2rem(10) 0;
+      }
+      .line{
+        height: 1px;
+        background: $line-1;
+      }
+      .product_detail{
+        font-size: .43rem;
+        color: $font_gray_88;
+        padding: px2rem(10) 0;
+        line-height: 1.5em;
+      }
+    }
+  }
+}
+

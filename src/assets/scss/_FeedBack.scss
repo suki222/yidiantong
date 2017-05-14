@@ -1,0 +1,83 @@
+@import "base/var";
+@import "base/px2rem";
+
+.view_feedback{
+  font-size: .45rem;
+  color: $font_black_4c;
+}
+.feedback_content{
+  background: white;
+  padding: px2rem(30) px2rem(40);
+  textarea{
+    width: 100%;
+    border: none;
+    background:$bg_gray_f2;
+    border-radius: 4px;
+    margin-top: px2rem(20);
+    padding: px2rem(20);
+    font-size: .4rem;
+    -webkit-input-placeholder:$font_gray_90;
+    line-height: 1.5em;
+  }
+}
+.feedback_explanation{
+  background: white;
+  padding-left: px2rem(40);
+  border-top: 1px solid $line-1;
+  padding-top: px2rem(30);
+  span{
+    color: $font_gray_90;
+  }
+}
+.feedback_piclist{
+  background: white;
+  padding: px2rem(30) px2rem(40);
+  li{
+    display: inline-block;
+    margin: 0 px2rem(15);
+    input{
+      display: none;
+    }
+    img{
+      height: px2rem(128);
+      width: px2rem(128);
+    }
+  }
+  .feedback_addpic{
+    height: px2rem(128);
+    width: px2rem(128);
+    display: inline-block;
+    img{
+      height: px2rem(128);
+      width: px2rem(128);
+    }
+  }
+}
+.feedback_msg_title{
+  padding: px2rem(20);
+}
+.feedback_msg_content{
+  padding: px2rem(20);
+  text-align: center;
+  text-indent: 2em;
+  line-height: 1.5em;
+  color: $font_gray_88
+;
+}
+.feedback_btn{
+  background: white;
+  width: 100%;
+  padding:px2rem(30) px2rem(40);
+  padding-top: 0;
+  p{
+    height: px2rem(80);
+    line-height: px2rem(80);
+    background: $bg_blue;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+  }
+}
+
+
+

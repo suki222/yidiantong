@@ -1,0 +1,86 @@
+@import "base/var";
+@import "base/px2rem";
+.view_mine{
+  font-size: .5rem;
+  color: $font_gray_55;
+  min-height: 100%;
+}
+.mine_company{
+  color: white;
+  padding:0 px2rem(30);
+  padding-top: px2rem(30);
+  text-align: center;
+  height: px2rem(450);
+  background: transparent url('../assets/img/bg_mine.png') center/px2rem(750) px2rem(450) no-repeat;
+  .mine_company_call{
+    height: px2rem(32);
+    width: px2rem(36);
+    float: right;
+  }
+  .name{
+    width: 100%;
+    font-size: .6rem;
+    height: px2rem(70);
+    line-height: px2rem(70);
+  }
+  .mine_company_vip{
+    height: px2rem(53);
+    width: px2rem(221);
+    margin-bottom: px2rem(15);
+  }
+  .endtime{
+    font-size: .45rem;
+  }
+  .mine_info{
+    display: flex;
+    margin-top: px2rem(30);
+    font-size: .45rem;
+    div{
+      flex: 1;
+      border-right: 1px solid white;
+      p{
+        line-height: 1.5em;
+      }
+    }
+    div:last-child{
+      border: none;
+    }
+  }
+}
+.mine_call_center{
+  background: white url('../assets/img/icon_call_center_logo.png') px2rem(20) center/px2rem(36) px2rem(32) no-repeat;
+  margin: px2rem(20) 0;
+  padding-right: px2rem(30);
+  p{
+    background: transparent url('../assets/img/right.png') right center/px2rem(15) px2rem(26) no-repeat;
+    height: px2rem(80);
+    line-height: px2rem(80);
+    text-indent: 1rem;
+    font-size: .45rem;
+    span{
+      float: right;
+      margin-right: px2rem(30);
+      font-size: .4rem;
+      color: $font_gray_88;
+    }
+  }
+}
+.group_ask{
+  font-size: .5rem;
+  color: $font_gray_55;
+  background: transparent;
+}
+.icon_mine_ask{
+  background: white;
+  height: px2rem(80);
+  line-height: px2rem(80);
+  width: 100%;
+  text-align: center;
+  img{
+    width: px2rem(163);
+    height: px2rem(32);
+  }
+}
+
+
+

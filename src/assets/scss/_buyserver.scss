@@ -1,0 +1,146 @@
+@import "base/var";
+@import "base/px2rem";
+
+.view_buyserver {
+  font-size: .5rem;
+  background: $bg_gray;
+  padding-top: px2rem(70);
+  padding-bottom: px2rem(90);
+}
+
+.buy_notice {
+  height: px2rem(70);
+  line-height: px2rem(70);
+  text-indent: 1.5rem;
+  background: white url('../assets/img/icon_call_.png') .7rem center/px2rem(33) px2rem(33) no-repeat;
+  border-bottom: 1px solid $line-1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: $font_gray_55;
+  p{
+    font-size: .5rem;
+  }
+  span {
+    color: $font_orange;
+  }
+}
+
+.bg_vip4{
+  background: white url('../assets/img/bg_vip4.png') center top/px2rem(710) px2rem(258) no-repeat;
+}
+.bg_vip3{
+  background: white url('../assets/img/bg_vip3.png') center top/px2rem(710) px2rem(258) no-repeat;
+}
+.bg_vip2{
+  background: white url('../assets/img/bg_vip2.png') center top/px2rem(710) px2rem(258) no-repeat;
+}
+.bg_vip1{
+  background: white url('../assets/img/bg_vip1.png') center top/px2rem(710) px2rem(258) no-repeat;
+}
+.bg_vip{
+  background: white url('../assets/img/bg_vip.png') center top/px2rem(710) px2rem(258) no-repeat;
+}
+.buy_info {
+  border: 1px solid $line-1;
+  border-radius: 4px;
+  margin: px2rem(16);
+  padding: px2rem(30) 0;
+  color: $font_black_4c;
+  text-align: center;
+  .buy_company{
+    font-size: .55rem;
+    padding: 0 px2rem(60);
+    color: white;
+  }
+  .buy_info_{
+    color: white;
+    display: flex;
+    line-height: 1.2em;
+    margin-top: px2rem(30);
+    margin-bottom: px2rem(100);
+    div{
+      flex: 1;
+      border-right: 1px solid $line-1;
+      font-size: .4rem;
+    }
+    div:last-child{
+      border: none;
+    }
+  }
+  .buy_info_gift,.buy_info_add_receipt{
+    height: px2rem(70);
+    line-height: px2rem(70);
+    margin-bottom: px2rem(15);
+    margin-top: px2rem(15);
+    p {
+      display: inline-block;
+      font-size: .5rem;
+      overflow: hidden;
+      color: $font_gray_55;
+    }
+    .gift,.receipt {
+      color: $font_gray_88;
+      font-size: .45rem;
+      border-radius: 4px;
+      background: $bg_gray_f2 url('../assets/img/icon_down.png') px2rem(410) center/px2rem(24) px2rem(24) no-repeat;
+      width: px2rem(450);
+      text-align: left;
+      padding-left: px2rem(20);
+      text-overflow:ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+  .buy_info_other{
+    border-top: 1px solid $line-1;
+    text-align: left;
+    line-height: px2rem(50);
+    margin: 0 px2rem(70);
+    margin-top: px2rem(30);
+    border-bottom: 1px solid $line-1;
+    padding: px2rem(20) 0;
+    font-size: .45rem;
+    color: $font_gray_55;
+    p:nth-child(1){
+      float: left;
+    }
+    p:nth-child(2){
+      float: right;
+    }
+    p:nth-child(3){
+      float: right;
+    }
+  }
+  .buy_info_pay{
+    padding-left: 50%;
+    text-align: left;
+    margin: px2rem(20) 0;
+    font-size: .45rem;
+    color: $font_gray_55;
+    span{
+      color: $font_orange;
+      font-size: .65rem;
+      font-weight: bold;
+    }
+  }
+  .buy_info_swiper{
+    margin: 0 px2rem(70);
+  }
+}
+.buy_btn{
+  background: $bg_blue;
+  color: white;
+  text-align: center;
+  height: px2rem(90);
+  line-height: px2rem(90);
+  border-radius: 4px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.right_{
+  background: transparent url('../assets/img/right.png') right center/px2rem(15) px2rem(26) no-repeat;
+}
+
+

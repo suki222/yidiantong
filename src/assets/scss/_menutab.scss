@@ -1,0 +1,35 @@
+@import "base/var";
+@import "base/px2rem";
+
+.menutab_list{
+  padding: px2rem(30) px2rem(10);
+  //color: $font_black;
+  li{
+    list-style-type: none;
+    display:inline-block ;
+    text-align: center;
+    p{
+      font-size: .45rem;
+      margin-top: px2rem(15);
+    }
+    img{
+      //height: px2rem(100);
+      //width: px2rem(100);
+      height: px2rem(70);
+      width: px2rem(70);
+      //border-radius: 50px;
+    }
+  }
+  .type_two{
+    width: 50%;
+  }
+  .type_three{
+    width: 33.333%;
+  }
+  .type_four{
+    width: 25%;
+  }
+}
+
+
+

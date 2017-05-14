@@ -1,0 +1,54 @@
+@import "base/var";
+@import "base/px2rem";
+
+.view_order_detail_doing{
+}
+.orderdetail_top{
+  background: white;
+  text-indent: 1rem;
+  font-size: .45rem;
+  margin-bottom: px2rem(30);
+  height: px2rem(80);
+  line-height: px2rem(80);
+  padding-right: px2rem(20);
+  span{
+    padding: px2rem(6) px2rem(20);
+    color: $bg_blue;
+    border: 1px solid $bg_blue;
+    border-radius: 4px;
+    margin-left: px2rem(15);
+  }
+  .orderdetail_server{
+    float: right;
+    margin-right: px2rem(40);
+  }
+}
+.state{
+  color: $font_orange;
+}
+.order_receipt{
+  background: white;
+  border-radius: 6px;
+  margin: px2rem(20);
+  font-size: .5rem;
+  p{
+    height: px2rem(80);
+    line-height: px2rem(80);
+    padding:0 px2rem(20);
+  }
+  .title_up{
+    background: transparent url('../assets/img/icon_arrow_up.png') 95% center/px2rem(24) px2rem(24) no-repeat;
+  }
+  .title_down{
+    background: transparent url('../assets/img/icon_arrow_down.png') 95% center/px2rem(24) px2rem(24) no-repeat;
+  }
+  .msg{
+    border-top: 1px solid $line-1;
+    color: $font_gray_77;
+    font-size: .45rem;
+  }
+}
+
+
+
+

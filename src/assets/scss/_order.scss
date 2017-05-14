@@ -1,0 +1,82 @@
+@import "base/var";
+@import "base/px2rem";
+
+.view_orderinfo{
+  background: white;
+  border: 1px solid $line-1;
+  border-radius: 6px;
+  padding: px2rem(15);
+  font-size: .5rem;
+  margin: 0 px2rem(20);
+  color: $font_gray_55;
+}
+.view_orderinfo_{
+  .orderinfo_company{
+    text-align: center;
+    font-size: .55rem;
+    margin: px2rem(20) 0;
+    color: $font_black_4c;
+  }
+  .orderinfo_info{
+    display: flex;
+    text-align: center;
+    font-size: .4rem;
+    line-height: 1.5em;
+    margin: px2rem(30) 0;
+    div{
+      flex: 1;
+      display: inline-block;
+      border-right: 1px solid $line-1;
+      p:last-child{
+        color: $font_gray_77;
+      }
+    }
+    div:last-child{
+      border: none;
+    }
+  }
+  .line{
+    height: 1px;
+    background: $line-1;
+    margin: 0 15%;
+    margin-bottom: px2rem(20);
+  }
+  .orderinfo_other_info{
+    font-size: .45rem;
+    padding-left: px2rem(25);
+    color: $font_gray_90;
+    p{
+      line-height: 2em;
+    }
+    .orderinfo_channel{
+      float: left;
+    }
+    .orderinfo_price{
+      float: left;
+      margin-left: px2rem(30);
+      span{
+        color: $font_orange;
+        padding-right: px2rem(80);
+      }
+    }
+  }
+  .orderinfo_undo{
+    background: transparent url('../../assets/img/icon_order_undo.png')90% center/px2rem(106) px2rem(106) no-repeat;
+  }
+  .orderinfo_done{
+    background: transparent url('../../assets/img/icon_order_done.png')90% center/px2rem(106) px2rem(106) no-repeat;
+  }
+}
+.orderinfo_btn{
+  background: $bg_blue;
+  width: px2rem(260);
+  height: px2rem(70);
+  line-height: px2rem(70);
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  font-size: .5rem;
+  margin:px2rem(30) auto;
+}
+
+

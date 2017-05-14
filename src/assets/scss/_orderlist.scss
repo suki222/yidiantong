@@ -1,0 +1,61 @@
+@import "base/var";
+@import "base/px2rem";
+
+.view_order{
+  background: $bg_gray;
+}
+.order_list {
+  padding: px2rem(20);
+  li {
+    background: white;
+    border: 1px solid $line-1;
+    border-radius: 6px;
+    margin-bottom: px2rem(10);
+    padding: px2rem(20);
+    display: flex;
+    .order_pic {
+      flex: 1;
+      text-align: center;
+      img {
+        width: px2rem(94);
+        height: px2rem(94);
+        margin-top: px2rem(50);
+      }
+    }
+    .order_info {
+      flex: 4;
+      .order_name {
+        font-size: .55rem;
+        border-bottom: 1px solid $line-1;
+        padding-bottom: px2rem(15);
+        span{
+          float: right;
+        }
+        .state_orange{
+          color: $font_orange;
+        }
+        .state_blue{
+          color: $bg_blue;
+        }
+        .state_gray{
+          color: $font_gray_77;
+        }
+      },
+    .order_other_info{
+      font-size: .45rem;
+      color: $font_gray_77;
+      p{
+        margin-top: px2rem(15);
+      }
+      .order_price{
+        padding-right: px2rem(50);
+        span{
+          color: $font_orange;
+          font-size: .5rem;
+        }
+      }
+    }
+    }
+  }
+}
+

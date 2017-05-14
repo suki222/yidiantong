@@ -1,0 +1,77 @@
+@import "base/var";
+@import "base/px2rem";
+.view_callcenter{
+}
+.callcenter_search{
+  width: 95%;
+  margin: 0 px2rem(20);
+  height: px2rem(60);
+  line-height: px2rem(60);
+  border-radius: 6px;
+  border: 1px solid $line-1;
+  text-align: center;
+  background: white url('../assets/img/callcenter_search.png') 2.5rem center/px2rem(31) px2rem(33) no-repeat;
+}
+.callcenter_ask_list{
+  li{
+    background: white;
+    height: px2rem(80);
+    line-height: px2rem(80);
+    font-size: .45rem;
+    margin-bottom: 2px;
+    padding:0 px2rem(40);
+    border-radius: 2px;
+  }
+}
+.call_news{
+  padding: px2rem(20);
+  .call_news_info{
+    padding: px2rem(40) 0;
+    width: px2rem(345);
+    height: px2rem(170);
+    background: $bg_blue;
+    float: left;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    &:nth-child(2){
+      background: $bg_orange;
+      margin-left: px2rem(20);
+    }
+    p:nth-child(1){
+      height: px2rem(48);
+      line-height: px2rem(48);
+      text-indent: px2rem(40);
+      font-size: .55rem;
+    }
+    p:nth-child(2){
+      font-size: .3rem;
+      margin-top: px2rem(20);
+    }
+  }
+  .call_news_tel{
+    background: transparent url('../assets/img/icon_tel_white.png')px2rem(70) center/px2rem(44) px2rem(48) no-repeat;
+  }
+  .call_news_qq{
+    background: transparent url('../assets/img/icon_call_qq.png')px2rem(55) center/px2rem(61) px2rem(48) no-repeat;
+  }
+}
+.call_title{
+  height: px2rem(80);
+  background: white;
+  text-align: center;
+  img{
+    height: px2rem(31);
+    width: px2rem(166);
+  }
+}
+.group_ask{
+  font-size: .5rem;
+}
+.sub-item {
+  color: #888;
+  font-size: .45rem;
+}
+
+
+

@@ -1,0 +1,17 @@
+@import "base/var";
+@import "base/px2rem";
+
+.buy_tel{
+  height: px2rem(100);
+  line-height: px2rem(100);
+  text-align: center;
+  font-size: .5rem;
+  color: $font_gray_90;
+  span{
+    padding-left: px2rem(45);
+    background: transparent url('../../assets/img/tel.png') left center/px2rem(32) px2rem(35) no-repeat;
+  }
+}
+
+
+

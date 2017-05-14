@@ -1,0 +1,73 @@
+@import "base/var";
+@import "base/px2rem";
+
+.view_bind{
+  height: 100%;
+  background: transparent url('../assets/img/bg_login.png') center/px2rem(750) 100% no-repeat;
+  font-size: .5rem;
+  .bind_logo{
+    text-align: center;
+    img{
+      height: px2rem(103);
+      width: px2rem(279);
+      margin-top: 30%;
+    }
+  }
+}
+.bind_input{
+  margin: px2rem(40) auto;
+  margin-top: px2rem(120);
+  border-radius: 6px;
+  background: rgba(255,255,255,0.2);
+  width: px2rem(560);
+  .bind_name,.bind_pwd{
+    height: px2rem(90);
+    line-height: px2rem(90);
+    display: flex;
+    span{
+      flex: 1.5;
+      padding-left: px2rem(70);
+      color: white;
+      background: transparent url('../assets/img/icon_login_username.png') px2rem(20) center/px2rem(37) px2rem(37) no-repeat;
+    }
+    input{
+      background: transparent;
+      border: none;
+      flex: 4;
+      border-radius: 6px;
+      color: white;
+    }
+  }
+  .bind_pwd{
+    span{
+      background: transparent url('../assets/img/icon_login_pwd.png') px2rem(20) center/px2rem(37) px2rem(37) no-repeat;
+    }
+  }
+}
+.bind_name{
+  border-bottom: 0.5px solid rgba(255,255,255,0.4);
+}
+.bind_btn{
+  width: px2rem(560);
+  margin: auto;
+  height: px2rem(80);
+  line-height: px2rem(80);
+  background: white;
+  color: $bg_blue;
+  border-radius: 6px;
+  text-align: center;
+}
+.login_bind{
+  height: px2rem(80);
+  line-height: px2rem(80);
+  text-align: center;
+  font-size: .4rem;
+  color: white;
+  span{
+    font-size: .45rem;
+    padding-left: px2rem(10);
+  }
+}
+
+
+

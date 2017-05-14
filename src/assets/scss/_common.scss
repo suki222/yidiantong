@@ -1,0 +1,73 @@
+@import "base/var";
+@import "base/px2rem";
+.hide{
+  overflow: hidden;
+}
+html, body {
+  height: 100%;
+  position: relative;
+  font-family: "Microsoft YaHei UI Light";
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+a{
+  color: inherit;
+}
+input{
+  outline: none;
+}
+button{
+  outline: none;
+}
+body{
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+}
+.divider{
+  height: px2rem(20);
+  display: block;
+  clear: both;
+  width: 100%;
+  background-color: #f6f6f6;
+  border-top: 1px solid $line-1;
+}
+p{
+  margin: 0;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+img{
+  -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #bfbfbf;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #bfbfbf;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #bfbfbf;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #bfbfbf;
+}
+
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+
+.right{
+  background: transparent url("assets/img/right.png") right center/ px2rem(15) px2rem(26) no-repeat;
+}
+

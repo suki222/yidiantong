@@ -1,0 +1,16 @@
+@import "base/var";
+@import "base/px2rem";
+.address_btn {
+  height: px2rem(80);
+  line-height: px2rem(80);
+  text-align: center;
+  background: $bg_blue;
+  color: white;
+  font-size: .5rem;
+  margin: px2rem(20);
+  border-radius: 2px;
+}
+
+
+
+

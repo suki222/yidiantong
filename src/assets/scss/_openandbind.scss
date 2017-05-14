@@ -1,0 +1,40 @@
+@import "base/var";
+@import "base/px2rem";
+
+.view_openandbind {
+  font-size: .5rem;
+  img {
+    height: px2rem(220);
+    width: 100%;
+  }
+}
+
+.ob_open, .ob_bind {
+  height: px2rem(90);
+  line-height: px2rem(90);
+  background: white;
+  padding: 0 px2rem(30);
+  p {
+    padding-left: px2rem(70);
+    span {
+      float: right;
+      color: $font_orange;
+      padding-right: px2rem(20);
+      font-size: .45rem;
+    }
+  }
+
+}
+
+.ob_open {
+  margin-top: px2rem(20);
+  border-bottom: 1px solid $line-1;
+  background: white url('../assets/img/icon_open.png') px2rem(30) center/px2rem(45) px2rem(46) no-repeat;
+
+}
+.ob_bind {
+  background: white url('../assets/img/icon_bind.png') px2rem(30) center/px2rem(45) px2rem(46) no-repeat;
+}
+
+
+

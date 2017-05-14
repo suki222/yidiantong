@@ -1,0 +1,30 @@
+@import "base/var";
+@import "base/px2rem";
+.view_openguide{
+  background: white;
+}
+.open_guide_list{
+  li{
+    padding: px2rem(30) 0;
+    margin: 0 px2rem(20);
+    height: px2rem(160);
+    border-bottom: 1px dotted $line-1;
+    font-size: .55rem;
+    color: $font_black_4c;
+    vertical-align: middle;
+    .headpic{
+      width:px2rem(97);
+      height:px2rem(97);
+      margin-right: px2rem(30);
+      float: left;
+    }
+    p{
+      height: px2rem(97);
+      line-height: px2rem(97);
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      overflow:hidden;
+      text-indent: px2rem(20);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+build/*.js
+config/*.js
+dist/*
+libs/*
+src/*.js
+flow
+dist
+packages
+import
+assets

@@ -1,0 +1,63 @@
+@import "base/var";
+@import "base/px2rem";
+
+.view_reset{
+  height: 100%;
+  font-size: .5rem;
+  padding: px2rem(20);
+}
+.reset_input{
+  background: white;
+  margin-bottom: px2rem(40);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  div{
+    height: px2rem(80);
+    line-height: px2rem(80);
+    border-top: 1px solid $line-1;
+    display: flex;
+    span{
+      flex: 1.5;
+      padding-left: px2rem(85);
+      background: transparent url('../assets/img/icon_reset_pwd.png') px2rem(40) center/px2rem(31) px2rem(37) no-repeat;
+    }
+    input{
+      border: none;
+      flex: 4;
+      border-bottom-right-radius: 8px;
+    }
+  }
+  .reset_name{
+    border-top: none;
+    span{
+      background: transparent url('../assets/img/icon_reset_username.png') px2rem(40) center/px2rem(31) px2rem(31) no-repeat;
+    }
+  }
+}
+.reset_title{
+  height: px2rem(80);
+  text-align: center;
+  line-height: px2rem(80);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: px2rem(6);
+  background: white;
+  color: $bg_blue;
+  p{
+    width: px2rem(220);
+    margin: auto;
+    background: transparent url('../assets/img/icon_reset_pwd.png') left center/px2rem(31) px2rem(37) no-repeat;
+  }
+}
+
+.reset_btn{
+  height: px2rem(80);
+  line-height: px2rem(80);
+  background: $bg_blue;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+}
+
+
+

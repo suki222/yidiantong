@@ -1,0 +1,34 @@
+@import "base/var";
+@import "base/px2rem";
+
+.view_receipt{
+  height: 100%;
+}
+.receipt_detail{
+  width: 100%;
+  text-align: right;
+  height: px2rem(100);
+  line-height:px2rem(100);
+  font-size: .5rem;
+  padding-right: px2rem(30);
+  color: $font_gray_77;
+}
+.receipt_msg{
+  font-size: .45rem;
+  color: $font_gray_88;
+  padding: px2rem(20);
+}
+.receipt_btn {
+  height: px2rem(80);
+  line-height: px2rem(80);
+  text-align: center;
+  background: $bg_blue;
+  color: white;
+  font-size: .5rem;
+  margin: px2rem(20);
+  border-radius: 2px;
+}
+
+
+
+
